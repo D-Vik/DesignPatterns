@@ -1,5 +1,5 @@
-﻿using MyLibrary.Factory;
-using MyLibrary.Factory.Interfaces;
+﻿using MyLibrary.AbstractFactory;
+using MyLibrary.AbstractFactory.Interfaces;
 using System;
 
 namespace MyLibrary
@@ -8,13 +8,11 @@ namespace MyLibrary
   {
     static void Main(string[] args)
     {
-      CardFactory factory = new CardFactory();
+      AnimalFactory factory = AnimalFactory.CreateAnimalFactory("Land");
 
-      ICard card = factory.CreateCard("Titanium");
+      IAnimal dog = factory.GetAnimal("Dog");
 
-      Console.WriteLine(card.CardName());
-      Console.WriteLine(card.AnnualCharge());
-      Console.WriteLine(card.CreditLimit());
+      Console.WriteLine(dog.Speak());
     }
   }
 }

@@ -1,5 +1,4 @@
-﻿
-using MyLibrary.Factory.Interfaces;
+﻿using MyLibrary.Factory.Interfaces;
 
 namespace MyLibrary.Factory.Cards
 {

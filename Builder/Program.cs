@@ -1,7 +1,4 @@
-﻿using MyLibrary.Builder;
-using System;
-
-namespace MyLibrary
+﻿namespace Builder
 {
   class Program
   {
@@ -11,11 +8,11 @@ namespace MyLibrary
 
       ReportDirector director = new ReportDirector();
 
-      PDFReport pdf = new PDFReport();
+      PDF pdf = new PDF();
       report = director.MakeReport(pdf);
       report.DisplayReport();
 
-      ExcelReport excel = new ExcelReport();
+      Excel excel = new Excel();
       report = director.MakeReport(excel);
       report.DisplayReport();
     }

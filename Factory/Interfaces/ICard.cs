@@ -1,4 +1,4 @@
-﻿namespace MyLibrary.Factory.Interfaces
+﻿namespace Factory.Interfaces
 {
   public interface ICard
   {

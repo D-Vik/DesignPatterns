@@ -1,7 +1,7 @@
-﻿using MyLibrary.AbstractFactory.Animals;
-using MyLibrary.AbstractFactory.Interfaces;
+﻿using AbstractFactory.Interfaces;
+using AbstractFactory.Animals;
 
-namespace MyLibrary.AbstractFactory.Factories
+namespace AbstractFactory.Factories
 {
   public class LandAnimalFactory : AnimalFactory
   {

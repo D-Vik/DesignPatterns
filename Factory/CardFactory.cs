@@ -1,7 +1,7 @@
-﻿using MyLibrary.Factory.Cards;
-using MyLibrary.Factory.Interfaces;
+﻿using Factory.Cards;
+using Factory.Interfaces;
 
-namespace MyLibrary.Factory
+namespace Factory
 {
   public class CardFactory
   {

@@ -1,6 +1,6 @@
-﻿using MyLibrary.AbstractFactory.Interfaces;
+﻿using AbstractFactory.Interfaces;
 
-namespace MyLibrary.AbstractFactory.Animals.SeaAnimals
+namespace AbstractFactory.Animals.SeaAnimals
 {
   public class Shark : IAnimal
   {

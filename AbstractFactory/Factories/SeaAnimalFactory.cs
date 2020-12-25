@@ -1,7 +1,7 @@
-﻿using MyLibrary.AbstractFactory.Animals.SeaAnimals;
-using MyLibrary.AbstractFactory.Interfaces;
+﻿using AbstractFactory.Interfaces;
+using AbstractFactory.Animals.SeaAnimals;
 
-namespace MyLibrary.AbstractFactory.Factories
+namespace AbstractFactory.Factories
 {
   public class SeaAnimalFactory : AnimalFactory
   {

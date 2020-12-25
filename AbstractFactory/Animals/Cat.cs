@@ -1,6 +1,6 @@
-﻿using MyLibrary.AbstractFactory.Interfaces;
+﻿using AbstractFactory.Interfaces;
 
-namespace MyLibrary.AbstractFactory.Animals
+namespace AbstractFactory.Animals
 {
   public class Cat : IAnimal
   {

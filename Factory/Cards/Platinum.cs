@@ -1,6 +1,6 @@
-﻿using MyLibrary.Factory.Interfaces;
+﻿using Factory.Interfaces;
 
-namespace MyLibrary.Factory.Cards
+namespace Factory.Cards
 {
   public class Platinum : ICard
   {

@@ -1,4 +1,4 @@
-﻿namespace MyLibrary.AbstractFactory.Interfaces
+﻿namespace AbstractFactory.Interfaces
 {
   public interface IAnimal
   {
